@@ -2,8 +2,8 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation'
 
-import Main from './Views/Main'
-import Other from './Views/Other'
+import Main from './src/Views/Main'
+import Other from './src/Views/Other'
 
 export default class App extends React.Component {
   render() {
